@@ -9,16 +9,22 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="fonts/ropemf/stylesheet.css">
   <link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Salty Dog Grooming Toms River</title>
 </head>
 <body class="sea-background">
 
   <div class="container">
     <div class="top-nav row">
-      <div class="top-nav-left col">
-       <a href="index.html"><img src="img/home_top_nav.png" /></a>
+      <div class="top-nav-left col-md">
+      <a href="https://www.facebook.com/saltydoggroomingnj/?rf=865332943515361"><img src="img/home_top_nav.png" class="facebook-desktop" /></a>
+      <a href="index.html"><img src="img/salty-dog-logo.png" class="top-logo-mobile" /></a>
      </div>
-     <div class="top-nav-right col">
+     <div class="top-nav-right col-md">
        <p class="homepage-address">
          877 Fischer Blvd #4 Toms River, NJ 08753
        </p>
@@ -28,6 +34,30 @@
      </div>
     </div>
   </div>
+
+  <header class="dog-container navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
+    <div class="container">
+      <div class="navbar-header">
+        <a href="" class="navbar-toggle navbar-brand" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse"><i class="fa fa-fw fa-home"></i>Menu
+      </div>
+      <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="index.html">About Us</a>
+          </li>
+          <li>
+            <a href="services.html">Services</a>
+          </li>
+          <li>
+            <a href="photos.html">Photos</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
   <div class="container nav-container">
     <div class="row top-nav-row">
@@ -50,12 +80,12 @@
   </div>
 
   <div class="container-fluid dog-container home-page-first-row">
-    <div class="row" style="margin:10px; padding-top: 173px;">
-      <div class="col-4 services-page">
-
+    <div class="row container-middle-row">
+      <div class="col-md-4">
+         <img src="img/services.jpg" class="img-fluid rounded mx-auto d-block">
       </div>
 
-      <div class="col-6">
+      <div class="col-md-6">
         <h2>Salty Dog Grooming Services</h2>
         <ul>
         <strong>
@@ -97,20 +127,22 @@
 
       </div>
     </div>
-    <div class="row">
-        <div class="col-sm  grooming">
 
+    <div class="row bottom-row">
+        <div class="col-sm">
+           <img src="img/dog.png" class="img-fluid">
         </div>
-        <div class="col-sm bathing">
-
+        <div class="col-sm">
+           <img src="img/dog2.png" class="img-fluid">
         </div>
-        <div class="col-sm nail-trimming">
-
+        <div class="col-sm">
+          <img src="img/paw.png" class="img-fluid">
         </div>
-
-      </div>
+    </div>
+    
       <div class="copyright">
         2016 Salty Dog Grooming | Toms River, NJ 08753 <a href="1-732-288-9488">732-288-9488</a> | info@saltydoggroomingnj.com
+        <a href="https://www.facebook.com/saltydoggroomingnj/?rf=865332943515361"><img src="img/home_top_nav.png" class="rounded mx-auto d-block" /></a>
       </div>
    </div>
 </body>

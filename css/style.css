@@ -88,6 +88,7 @@
 }
 .top-nav-right {
   margin-top: 25px;
+  text-align: right;
 }
 .top-nav-right.col p {
   text-align: right;
@@ -121,25 +122,10 @@
   font-weight: bold;
 }
 
-.grooming {
-  background: url("../img/grooming.png") ;
-  background-repeat: no-repeat; /* Do not repeat the image */
-  height: 250px;
-
-}
-
-.bathing {
-  background: url("../img/bathing.png") ;
-  background-repeat: no-repeat; /* Do not repeat the image */
-  height: 250px;
-
-}
-
-.nail-trimming {
-  background: url("../img/trimming.png") ;
-  background-repeat: no-repeat; /* Do not repeat the image */
-  height: 250px;
-
+.row.bottom-row img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 
@@ -285,4 +271,144 @@ img.hover-shadow {
     margin-left: auto;
     margin-right: auto;
     display: block;
+}
+
+.navbar-brand {
+  text-transform: uppercase;
+  font-family: 'Rye', cursive;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.navbar .nav {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 1.2rem;
+  font-family: 'Rye', cursive;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.navbar-inverse {
+  background: url(../img/wood_nav.jpg);
+  background-size: cover;
+}
+
+header.dog-container.navbar.navbar-inverse.navbar-fixed-top.bs-docs-nav {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+
+
+.dropdown-menu {
+  background-color: #006B00
+}
+
+
+
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+  background-image: none;
+}
+
+.navbar-inverse {
+  border-color: #003300
+}
+
+.navbar-inverse .navbar-brand {
+  color: #FFFFFF
+}
+
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #FFFFFF
+}
+
+
+
+
+
+
+
+.dropdown-menu>li>a {
+  color: #FFFFFF
+}
+
+
+
+.navbar-inverse .navbar-nav>.dropdown>a .caret {
+  border-top-color: #FFFFFF
+}
+
+
+
+.navbar-inverse .navbar-nav>.dropdown>a .caret {
+  border-bottom-color: #FFFFFF
+}
+
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret {
+  border-bottom-color: #FFFFFF
+}
+
+@media only screen and (min-width:1200px) {
+  header.dog-container.navbar.navbar-inverse.navbar-fixed-top.bs-docs-nav {
+    display: none;
+  }
+  .container-middle-row {
+    padding-top:173px;
+    margin:10px;
+  }
+  .top-nav-right {
+     margin-top: 25px;
+     margin-bottom: 10px;
+ }
+ .top-logo-mobile {
+   display: none;
+
+ }
+}
+
+@media only screen and (max-width:767px) {
+  .contact-column p {
+    text-align: center;
+  }
+  .contact-column h2 {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+}
+@media only screen and (max-width:1201px) {
+  .nav-container {
+    display: none;
+  }
+  .home-page-first-row {
+    margin-top: -10px;
+  }
+  .container-middle-row {
+    padding-top: 50px;
+  }
+  .navbar-collapse {
+    margin-top: -30px;
+  }
+  .navbar-brand {
+    margin-right: auto;
+  }
+  .facebook-desktop {
+    display: none;
+  }
+  .top-logo-mobile {
+    width: 125px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .top-nav-right.col-md p {
+    text-align: center;
+ }
 }
