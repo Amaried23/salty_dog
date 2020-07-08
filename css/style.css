@@ -211,6 +211,10 @@ template {
     text-shadow: 2px 2px 4px #000000;
 }
 
+a.nav-button:hover {
+  color:white;
+  text-decoration: underline;
+}
 
 
 .nav-button-2 {
@@ -228,6 +232,11 @@ template {
     font-family: 'Rye', cursive;
     text-transform: uppercase;
     text-shadow: 2px 2px 4px #000000;
+}
+
+a.nav-button-2:hover {
+  color:white;
+  text-decoration: underline;
 }
 
 .home-image {
